@@ -1,7 +1,7 @@
 //billboardTextures
 let billboardTextures = {};
 billboardTextures.terpSolutionsTexture = '../src/jsm/Portfolio.png';
-billboardTextures.bagHolderBetsTexture = '../src/jsm/Bagholdersbetsbillboard.png';
+billboardTextures.terminalTronTexture = '../src/jsm/TerminalTronBillboard.png';
 billboardTextures.homeSweetHomeTexture = '../src/jsm/home-sweet-home-portrait.png';
 
 //box textures
@@ -32,7 +32,7 @@ let woodTexture = '../src/jsm/woodTexture.jpg';
 let inputText = {};
 inputText.terpSolutionsText = '../src/jsm/Portfolio-bio.png';
 inputText.activities = '../src/jsm/activities_text.png';
-inputText.bagholderBetsText = '../src/jsm/bagholderbets-text.png';
+inputText.terminalTronText = '../src/jsm/TerminalTron-text.png';
 inputText.homeSweetHomeText = '../src/jsm/home-sweet-home-text.png';
 inputText.staticPortfolio = '../src/jsm/static-portfolio.png';
 
@@ -43,10 +43,10 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 //URLs
 let URL = {};
 URL.terpsolutions = 'https://web.archive.org/web/20200302001846/https://terpsolutions.com/';
-URL.bagholderBets = 'https://bagholder-bets.herokuapp.com';
-URL.homeSweetHomeURL = '#';
+URL.terminalTron = '#';
+URL.homeSweetHomeURL = null;
 URL.twitter = 'https://twitter.com/SohaibSyed';
-URL.email = 'https://mailto:sohaibsyed.eth@gmail.com';
-URL.devTo = 'https://dev.to/sohaibsyed/create-an-interactive-3d-portfolio-website-that-stands-out-to-employers-47gc';
+URL.email = 'https://mailto:amaans113@gmail.com';
+URL.devTo = 'https://sohaibs.great-site.net/';
 
 export { billboardTextures, boxTexture, inputText, URL, stoneTexture, woodTexture };
