@@ -905,13 +905,13 @@ Ammo().then((Ammo) => {
 
     createBillboard(-80, 2.5, -70, billboardTextures.terpSolutionsTexture, URL.terpsolutions, Math.PI * 0.22);
 
-    createBillboard(-45, 2.5, -78, billboardTextures.bagHolderBetsTexture, URL.bagholderBets, Math.PI * 0.17);
+    createBillboard(-45, 2.5, -78, billboardTextures.terminalTronTexture, URL.terminalTron, Math.PI * 0.17);
 
     createBillboardRotated(-17, 1.25, -75, billboardTextures.homeSweetHomeTexture, URL.homeSweetHomeURL, Math.PI * 0.15);
 
     sohaibWords(16.2, 1, -20);
     createTextOnPlane(-70, 0.01, -48, inputText.terpSolutionsText, 20, 40);
-    createTextOnPlane(-42, 0.01, -53, inputText.bagholderBetsText, 20, 40, { x0: 0.03, x1: 0.98, y0: 0.02, y1: 0.76 });
+    createTextOnPlane(-42, 0.01, -53, inputText.terminalTronText, 20, 40, { x0: 0.03, x1: 0.98, y0: 0.02, y1: 0.76 });
     createTextOnPlane(-14, 0.01, -49, inputText.homeSweetHomeText, 20, 40, { x0: 0.03, x1: 0.97, y0: 0.02, y1: 0.68 });
 
     // New Skills section below SKILLS header - animated list of technical skills
